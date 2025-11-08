@@ -1,163 +1,683 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Essential Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BuuyTheDip - Master trading and investing with expert-led courses in stock market, technical analysis, options, futures, forex, and crypto trading.">
+    <meta name="keywords" content="trading courses, stock market education, technical analysis, forex trading, crypto trading, options trading, investment education">
+    <meta name="author" content="BuuyTheDip">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="BuuyTheDip - Master Trading & Investing">
+    <meta property="og:description" content="Transform your trading skills with comprehensive courses and live market sessions">
+    <meta property="og:type" content="website">
+    
+    <title>BuuyTheDip - Master Trading & Investing | Online Trading Courses</title>
     
     <!-- Favicon -->
-    <link rel="icon" href="/bull-favicon.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/bull-favicon.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="alternate icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
     
-    <!-- Primary SEO Tags -->
-    <title>Market Mastery View | SEBI Registered Research Analyst INH000000000</title>
-    <meta name="title" content="Market Mastery View | SEBI Registered Research Analyst" />
-    <meta name="description" content="Professional stock market research and analysis from SEBI-registered analyst. 500+ satisfied clients, 78% success rate, ₹500Cr+ AUM. Expert equity research, portfolio management, and investment advisory services for Indian markets." />
-    <meta name="keywords" content="SEBI registered research analyst, stock market research, equity research India, portfolio management, investment advisory, NSE BSE stocks, market analysis, trading strategies, financial research, stock recommendations" />
-    <meta name="author" content="Market Mastery View - Ritesh" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <link rel="canonical" href="https://your-domain.vercel.app/" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Geo Tags -->
-    <meta name="geo.region" content="IN-MH" />
-    <meta name="geo.placename" content="Mumbai" />
-    <meta name="geo.position" content="19.0760;72.8777" />
-    <meta name="ICBM" content="19.0760, 72.8777" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Language -->
-    <meta name="language" content="English" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://your-domain.vercel.app/" />
-    <meta property="og:site_name" content="Market Mastery View" />
-    <meta property="og:title" content="Market Mastery View | SEBI Registered Research Analyst" />
-    <meta property="og:description" content="Professional stock market research with 500+ clients, 78% success rate, and ₹500Cr+ AUM. SEBI-registered equity research and portfolio management services." />
-    <meta property="og:image" content="https://your-domain.vercel.app/og-image.jpg" />
-    <meta property="og:image:secure_url" content="https://your-domain.vercel.app/og-image.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Market Mastery View - Professional Stock Market Research" />
-    <meta property="og:locale" content="en_IN" />
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://your-domain.vercel.app/" />
-    <meta name="twitter:title" content="Market Mastery View | SEBI Registered Research Analyst" />
-    <meta name="twitter:description" content="Professional stock market research with 500+ clients and 78% success rate. Expert SEBI-registered equity research services." />
-    <meta name="twitter:image" content="https://your-domain.vercel.app/og-image.jpg" />
-    <meta name="twitter:image:alt" content="Market Mastery View - Professional Stock Market Research" />
-    <meta name="twitter:creator" content="@MarketMastery" />
-    <meta name="twitter:site" content="@MarketMastery" />
-    
-    <!-- Additional Meta Tags -->
-    <meta name="theme-color" content="#22c55e" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#1e293b" media="(prefers-color-scheme: dark)" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Market Mastery" />
-    
-    <!-- Structured Data - Organization -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FinancialService",
-      "name": "Market Mastery View",
-      "description": "SEBI Registered Research Analyst providing professional stock market research and investment advisory services",
-      "url": "https://your-domain.vercel.app",
-      "logo": "https://your-domain.vercel.app/bull-favicon.png",
-      "image": "https://your-domain.vercel.app/og-image.jpg",
-      "priceRange": "₹₹₹",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "19.0760",
-        "longitude": "72.8777"
-      },
-      "areaServed": "IN",
-      "serviceType": ["Stock Market Research", "Investment Advisory", "Portfolio Management", "Equity Research"],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "500"
-      },
-      "telephone": "+91-98765-43210",
-      "email": "research@bulltrading.com"
-    }
-    </script>
-    
-    <!-- Structured Data - Professional Service -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Market Mastery View Research Services",
-      "description": "Professional SEBI-registered research analyst services for equity markets",
-      "founder": {
-        "@type": "Person",
-        "name": "Ritesh",
-        "jobTitle": "SEBI Registered Research Analyst",
-        "credential": "SEBI Registration: INH000000000"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Investment Research Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Premium Research Reports",
-              "description": "Comprehensive stock analysis and market research reports"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Portfolio Management",
-              "description": "Professional portfolio management and advisory services"
-            }
-          }
-        ]
-      }
-    }
-    </script>
-    
-    <!-- Structured Data - WebSite -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Market Mastery View",
-      "url": "https://your-domain.vercel.app",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://your-domain.vercel.app/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    
-    <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-    
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  </head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="loader"></div>
+            <p>Loading Excellence...</p>
+        </div>
+    </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header/Navigation -->
+    <header id="header" class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="logo">
+                        <img src="assets/images/logo.svg" alt="BuuyTheDip Logo" class="logo-img" onerror="this.onerror=null; this.src='assets/images/logo.png';">
+                    </a>
+                    
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-list">
+                            <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                            <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                            <li><a href="#services" class="nav-link"><i class="fas fa-graduation-cap"></i> Services</a></li>
+                            <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                        </ul>
+                        
+                        <div class="nav-cta-mobile">
+                            <a href="tel:+917858825549" class="btn btn-primary-nav">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>Call Now</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-right">
+                        <a href="tel:+917858825549" class="btn btn-primary-nav btn-desktop">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91 7858825549</span>
+                        </a>
+                        
+                        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span>Premium Trading Education</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Master the Art of
+                    <span class="gradient-text">Trading & Investing</span>
+                </h1>
+                
+                <p class="hero-subtitle">Transform your financial future with expert-led courses, live market analysis, and a thriving community of successful traders</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon red">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number" data-target="6">0</h3>
+                            <p>Expert Courses</p>
+                        </div>
+                    </div>
+                    <a href="assets/images/nism-certificate.jpg" target="_blank" class="stat-card stat-card-clickable" style="cursor: pointer; text-decoration: none; color: inherit;">
+                        <div class="stat-icon green">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">NISM</h3>
+                            <p>Certificate</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary btn-large">
+                        <span>Explore Courses</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline btn-large">
+                        <i class="fas fa-phone"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Live Market Sessions</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Expert Mentorship</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Lifetime Access</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="https://i.pinimg.com/736x/7e/85/1f/7e851f95051c6ab0023bbc5930bcd3d1.jpg" alt="Trading Chart Analysis" class="trading-img">
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box green-box">
+                    <div class="feature-box-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Learn</h3>
+                    <p>Advance your trading skills through our comprehensive sessions and live market analysis</p>
+                </div>
+                
+                <div class="feature-box red-box">
+                    <div class="feature-box-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Grow</h3>
+                    <p>Discover your trading potential and achieve financial goals in an encouraging environment</p>
+                </div>
+                
+                <div class="feature-box green-box">
+                    <div class="feature-box-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Invest</h3>
+                    <p>Immerse yourself in a learning experience that strengthens market knowledge and confidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">Who We Are</span>
+                <h2 class="section-title">Our Story</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image-side">
+                    <div class="about-image-wrapper">
+                        <div class="image-frame">
+                            <img src="assets/images/logo.png" alt="BuuyTheDip Logo" loading="lazy">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="floating-card card-1">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Real-Time Trading</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text-side">
+                    <h3 class="about-heading">Transforming Market Participants Through Education</h3>
+                    
+                    <p class="about-paragraph">A significant percentage of traders and investors face financial losses in the markets due to insufficient knowledge, lack of structured guidance, and the absence of a disciplined approach. At our organization, we are dedicated to transforming this reality.</p>
+                    
+                    <p class="about-paragraph">Our purpose is to educate, mentor, and empower individuals with clear, research-backed market understanding and practical execution strategies. We aim to enable every learner to make informed decisions, minimize avoidable losses, and develop the capability to create sustainable long-term wealth.</p>
+                    
+                    <p class="about-paragraph"><strong>What sets us apart is our live market teaching approach.</strong> Instead of relying on theoretical explanations alone, we provide real-time market insights, trade breakdowns, and execution guidance during active market hours. This ensures that our learners gain practical skill, confidence, and the ability to apply knowledge in real trading scenarios.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon green">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Market Clarity</h4>
+                                <p>Understand market behavior with clarity</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon red">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Risk Management</h4>
+                                <p>Disciplined trading and risk practices</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon green">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Decision-Making</h4>
+                                <p>Strengthen ability under pressure</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon red">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Wealth Building</h4>
+                                <p>Knowledge, patience, strategic planning</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="about-conclusion">Our mission is not only to teach how the market works, but to shape individuals into independent, informed, and confident market participants capable of long-term success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">What We Offer</span>
+                <h2 class="section-title">Our Offerings</h2>
+                <div class="title-line"></div>
+                <p class="section-description">Specialized mentorship program designed to enhance your trading & investing expertise</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-header green-gradient">
+                        <div class="service-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Stock Market Basics</h3>
+                        <p>Foundational knowledge for novice traders. Learn the fundamentals of stock market operations, trading strategies, and investment principles.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Market fundamentals</li>
+                            <li><i class="fas fa-check"></i> Trading psychology</li>
+                            <li><i class="fas fa-check"></i> Risk management</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="featured-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Popular</span>
+                    </div>
+                    <div class="service-card-header red-gradient">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Fundamental Analysis</h3>
+                        <p>In-depth understanding of company valuations. Master financial statement analysis, ratio analysis, and company evaluation techniques.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Financial statements</li>
+                            <li><i class="fas fa-check"></i> Ratio analysis</li>
+                            <li><i class="fas fa-check"></i> Company valuation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-header green-gradient">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Technical Analysis</h3>
+                        <p>Skills to read market charts and trends. Learn candlestick patterns, indicators, and advanced charting techniques.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Chart patterns</li>
+                            <li><i class="fas fa-check"></i> Technical indicators</li>
+                            <li><i class="fas fa-check"></i> Trading strategies</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-header red-gradient">
+                        <div class="service-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Options & Futures</h3>
+                        <p>Strategies to leverage options for profit. Insights into trading futures contracts effectively with risk management.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Options strategies</li>
+                            <li><i class="fas fa-check"></i> Futures trading</li>
+                            <li><i class="fas fa-check"></i> Hedging techniques</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-header red-gradient">
+                        <div class="service-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Forex Trading</h3>
+                        <p>Trade the world's largest financial market. Master currency fundamentals, chart analysis, trading psychology, and risk management.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Currency pairs</li>
+                            <li><i class="fas fa-check"></i> Forex strategies</li>
+                            <li><i class="fas fa-check"></i> Risk control</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="featured-badge">
+                        <i class="fas fa-fire"></i>
+                        <span>Trending</span>
+                    </div>
+                    <div class="service-card-header green-gradient">
+                        <div class="service-icon">
+                            <img src="https://png.pngtree.com/png-vector/20220527/ourmid/pngtree-bitcoin-logo-design-template-png-image_4749408.png" alt="Bitcoin" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Cryptocurrency</h3>
+                        <p>Trade and invest in cryptocurrencies with confidence. Master blockchain basics, technical analysis, and smart trading strategies.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Blockchain technology</li>
+                            <li><i class="fas fa-check"></i> Crypto trading</li>
+                            <li><i class="fas fa-check"></i> Portfolio management</li>
+                        </ul>
+                    </div>
+                    <div class="service-card-footer">
+                        <a href="#contact" class="service-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta-section">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <h3>Ready to Start Your Trading Journey?</h3>
+                        <p>Join thousands of successful traders who transformed their financial future</p>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="tel:+917858825549" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i>
+                            <span>Contact Now</span>
+                        </a>
+                        <a href="#reviews" class="btn btn-outline-white btn-large">
+                            <i class="fas fa-star"></i>
+                            <span>Read Reviews</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-icon-large">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2>Your Journey to Financial Mastery Starts Here</h2>
+                <p>Join our community of successful traders and start your transformation today</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <span>Get Started Now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="title-line"></div>
+                <p class="section-description">Don't hesitate to contact us for more details about our courses and programs</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info-side">
+                    <h3>Let's Start a Conversation</h3>
+                    <p>We're here to help you begin your trading journey. Reach out to us through any of the following channels.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon green">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email Us</h4>
+                                <a href="mailto:Info@buuythdip.com">Info@buuythdip.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon red">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Call Us</h4>
+                                <a href="tel:+917858825549">+91 7858825549</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon green">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Working Hours</h4>
+                                <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-connect">
+                        <h4>Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-side">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="d6d7a776-791c-46f9-89da-a4c8ba8b0d77">
+                        <input type="hidden" name="subject" value="New Contact Form Submission from BuuyTheDip">
+                        <input type="hidden" name="from_name" value="BuuyTheDip Website">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">
+                                    <i class="fas fa-user"></i>
+                                    Your Name *
+                                </label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                <span class="error-message"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i>
+                                    Email Address *
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="fas fa-phone"></i>
+                                Phone Number
+                            </label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            <span class="error-message"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                Your Message *
+                            </label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your trading goals..." required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large btn-block">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.svg" alt="BuuyTheDip Logo" class="footer-logo-img" onerror="this.onerror=null; this.src='assets/images/logo.png';">
+                    </div>
+                    <p class="footer-desc">Empowering traders worldwide with expert education, live market insights, and a supportive community.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-angle-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Our Services</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Our Courses</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Stock Market Basics</a></li>
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Technical Analysis</a></li>
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Options Trading</a></li>
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Forex Trading</a></li>
+                        <li><a href="#services"><i class="fas fa-angle-right"></i> Cryptocurrency</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:Info@buuythdip.com">Info@buuythdip.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+917858825549">+91 7858825549</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 9AM - 8PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 BuuyTheDip. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>•</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
 </html>
