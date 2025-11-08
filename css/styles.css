@@ -2287,6 +2287,10 @@ input, textarea, select {
         text-align: center;
     }
     
+    .footer-col h4 {
+        text-align: center;
+    }
+    
     .footer-logo {
         justify-content: center;
         margin-bottom: var(--spacing-md);
@@ -2302,6 +2306,26 @@ input, textarea, select {
     }
     
     .footer-link {
+        text-align: center;
+    }
+    
+    .footer-contact {
+        align-items: center;
+    }
+    
+    .footer-contact li {
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .footer-contact i {
+        margin-top: 0;
+    }
+    
+    .footer-contact a,
+    .footer-contact span {
         text-align: center;
     }
     
