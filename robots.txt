@@ -1,0 +1,36 @@
+# Robots.txt for BuuyTheDip - Ritesh Lifts Trading Education
+# Optimized for maximum SEO crawling
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+
+# Sitemap location
+Sitemap: https://buuythedip.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Crawl delay for better indexing
+Crawl-delay: 1
