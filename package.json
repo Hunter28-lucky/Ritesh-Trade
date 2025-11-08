@@ -4,6 +4,7 @@
   "description": "Professional trading education platform by BuuyTheDip",
   "main": "index.html",
   "scripts": {
+    "build": "echo 'No build required - static site'",
     "dev": "python3 -m http.server 5500 || python -m SimpleHTTPServer 5500",
     "preview": "python3 -m http.server 5500 || python -m SimpleHTTPServer 5500"
   },
