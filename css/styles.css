@@ -1112,12 +1112,16 @@ input, textarea, select {
 .service-card-body {
     padding: var(--spacing-lg);
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .service-card-body h3 {
     font-size: 1.25rem;
     margin-bottom: var(--spacing-sm);
     font-weight: 600;
+    text-align: center;
 }
 
 .service-card-body > p {
@@ -1126,6 +1130,7 @@ input, textarea, select {
     margin-bottom: var(--spacing-md);
     font-weight: 400;
     font-size: 1.0625rem;
+    text-align: center;
 }
 
 .package-info {
@@ -1133,6 +1138,7 @@ input, textarea, select {
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-bottom: var(--spacing-md);
+    justify-content: center;
 }
 
 .package-label {
@@ -1174,6 +1180,8 @@ input, textarea, select {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
+    align-items: flex-start;
 }
 
 .service-features li {
@@ -1183,6 +1191,8 @@ input, textarea, select {
     font-size: 1.0625rem;
     color: var(--color-text-light);
     font-weight: 500;
+    text-align: left;
+    width: 100%;
 }
 
 .service-features i {
@@ -1569,11 +1579,14 @@ input, textarea, select {
     font-size: 1.0625rem;
     margin-bottom: 0.25rem;
     font-weight: 600;
+    text-align: left;
 }
 
 .method-content a {
     color: var(--color-text-light);
     transition: var(--transition-base);
+    text-align: left;
+    display: block;
 }
 
 .method-content a:hover {
@@ -1583,6 +1596,7 @@ input, textarea, select {
 .method-content p {
     color: var(--color-text-light);
     margin: 0;
+    text-align: left;
 }
 
 .social-connect {
@@ -1821,21 +1835,29 @@ input, textarea, select {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
+    text-align: left;
 }
 
 .footer-contact i {
     color: var(--color-accent);
     margin-top: 0.25rem;
     font-size: 0.9375rem;
+    flex-shrink: 0;
 }
 
 .footer-contact a {
     color: rgba(255, 255, 255, 0.7);
     transition: var(--transition-base);
+    text-align: left;
 }
 
 .footer-contact a:hover {
     color: var(--color-white);
+}
+
+.footer-contact span {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
 }
 
 .footer-bottom {
@@ -2245,6 +2267,7 @@ input, textarea, select {
     .service-card-body {
         text-align: center;
         padding: var(--spacing-lg);
+        align-items: center;
     }
     
     .service-icon {
@@ -2273,6 +2296,10 @@ input, textarea, select {
         justify-content: center;
         text-align: center;
         font-size: 1rem;
+    }
+    
+    .package-info {
+        justify-content: center;
     }
     
     .service-card .btn {
@@ -2328,23 +2355,27 @@ input, textarea, select {
     }
     
     .contact-method {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
     }
     
     .contact-icon {
-        margin: 0 auto var(--spacing-md);
+        flex-shrink: 0;
+    }
+    
+    .method-content {
+        text-align: left;
     }
     
     .contact-method h3 {
-        text-align: center;
+        text-align: left;
         margin-bottom: var(--spacing-sm);
     }
     
     .contact-method p,
     .contact-method a {
-        text-align: center;
+        text-align: left;
     }
     
     /* Footer */
@@ -2354,53 +2385,55 @@ input, textarea, select {
     }
     
     .footer-col {
-        text-align: center;
+        text-align: left;
     }
     
     .footer-col h4 {
-        text-align: center;
+        text-align: left;
     }
     
     .footer-logo {
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: var(--spacing-md);
     }
     
-    .footer-description,
-    .footer-links {
-        text-align: center;
+    .footer-desc {
+        text-align: left;
     }
     
     .footer-links {
-        align-items: center;
+        text-align: left;
+        align-items: flex-start;
     }
     
     .footer-link {
-        text-align: center;
+        text-align: left;
     }
     
     .footer-contact {
-        align-items: center;
+        align-items: flex-start;
     }
     
     .footer-contact li {
-        justify-content: center;
-        text-align: center;
+        justify-content: flex-start;
+        text-align: left;
         flex-direction: row;
-        gap: 0.5rem;
+        gap: 0.75rem;
+        align-items: flex-start;
     }
     
     .footer-contact i {
-        margin-top: 0;
+        margin-top: 0.25rem;
+        flex-shrink: 0;
     }
     
     .footer-contact a,
     .footer-contact span {
-        text-align: center;
+        text-align: left;
     }
     
     .footer-social {
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     .footer-bottom {
@@ -2565,6 +2598,10 @@ input, textarea, select {
         font-size: 0.9375rem;
         justify-content: center;
         text-align: center;
+    }
+    
+    .package-info {
+        justify-content: center;
     }
     
     .cta-icon-large {
