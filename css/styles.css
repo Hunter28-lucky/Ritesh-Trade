@@ -1127,6 +1127,13 @@ input, textarea, select {
     font-weight: 400;
 }
 
+.package-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: var(--spacing-md);
+}
+
 .package-label {
     display: inline-flex;
     align-items: center;
@@ -1138,11 +1145,28 @@ input, textarea, select {
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--color-accent);
-    margin-bottom: var(--spacing-md);
 }
 
 .package-label i {
     font-size: 0.875rem;
+}
+
+.package-duration {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.875rem;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(5, 150, 105, 0.1));
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-success);
+}
+
+.package-duration i {
+    font-size: 0.875rem;
+    color: var(--color-accent);
 }
 
 .service-features {
